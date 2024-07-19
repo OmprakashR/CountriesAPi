@@ -20,9 +20,9 @@ const count = ref(0);
     <menu
       class="flex justify-between p-4 dark:bg-gray-800  bg-slate-100 text-slate-900 dark:text-white font-bold"
     >
-      <h1>Where in the world?</h1>
+      <div class="text-lg">Where in the world?</div>
 
-      <span class="flex justify-center gap-3">
+      <div class="flex justify-center gap-3">
         <label @click="isToggle()"> 
           <ion-icon
             name="moon"
@@ -30,7 +30,7 @@ const count = ref(0);
           ></ion-icon>
         </label>
         Dark Mode
-      </span>
+      </div>
     </menu>
   </header>
 </template>

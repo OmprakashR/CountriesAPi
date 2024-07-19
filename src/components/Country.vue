@@ -7,7 +7,7 @@
           Class="dark:bg-slate-600 rounded-md items-center p-2 shadow shadow-slate-400  bg-white flex justify-start gap-4"
         >
           <ion-icon
-            name="search"
+            name="search" 
             class="text-slate-900 dark:text-white"
           ></ion-icon>
           <input  v-model="filterText" placeholder="Search for a country.."

@@ -6,9 +6,9 @@ import Header from "./components/Menu.vue";
 <template>
 <Header/>
 
-<div class="container p-6 mx-auto ">
+<main class="container p-6 mx-auto ">
   <router-view />
- </div>
+ </main>
  
 </template>
 
