@@ -18,7 +18,7 @@ const count = ref(0);
           <ion-icon
             name="search"
             class="text-slate-900 dark:text-white"
-          ></ion-icon>
+          >&nbsp;</ion-icon>
           <input placeholder="Search for a country.."
             class="bg-transparent outline-none border-none shadow-none text-white "
           />

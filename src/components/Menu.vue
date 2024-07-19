@@ -27,7 +27,7 @@ const count = ref(0);
           <ion-icon
             name="moon"
             class="text-slate-900 dark:text-white"
-          ></ion-icon>
+          >&nbsp;</ion-icon>
         </label>
         Dark Mode
       </div>
