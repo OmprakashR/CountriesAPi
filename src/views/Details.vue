@@ -49,7 +49,7 @@ export default {
       Back</router-link
     >
   </div>
-  <div class="flex-col md:flex-row items-center ">
+  <div class="flex flex-col md:flex-row items-center ">
     <div class="w-full md:w-1/2 ">
       <div class="dark:bg-slate-700/50 bg-slate-200 rounded-xl p-5">
       <img :src="country.flags.svg" class="country-flag w-full " alt="Flag" />
